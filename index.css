@@ -29,6 +29,7 @@ a:hover {
     max-width: 100px;
 }
 
+/* Personalidade */
 #personality-title h1 {
     text-align: center;
     letter-spacing: -2.0px;
@@ -38,15 +39,53 @@ a:hover {
     padding: 3%;
 }
 
+@media only screen and (max-width: 600px) {
+    .large-characteristics {
+      display: none;
+    }
+
+    .mobile-characteristics {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .large-skills {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .large-characteristics p {
+      margin-top: -1%;
+    }
+
+    .mobile-characteristics {
+      display: none;
+    }
+
+    .mobile-skills {
+      display: none;
+    }
+}
+
+.max-percent {
+    color: mediumspringgreen;
+}
+
 .col img {
     border-radius: 50%;
     max-width: 100px;
 }
 
+/* Habilidades */
 #skills {
     padding: 1%;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+@media only screen and (min-width: 600px) {
+    
 }
 
 #works {
