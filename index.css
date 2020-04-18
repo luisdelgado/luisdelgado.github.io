@@ -106,8 +106,13 @@ a:hover {
     font-size: 120%;
 }
 
+/* Contato */
 #contact img {
     border-radius: 20%;
     width: 50px;
     height: 50px;
+}
+
+.background-image {
+    background-color: white;
 }
