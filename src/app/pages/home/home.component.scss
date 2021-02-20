@@ -25,6 +25,48 @@ a:hover {
     max-width: 100px;
 }
 
+/* Contato */
+#media img {
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    // margin-left: 1px;
+    // margin-right: 1px;
+}
+
+.background-image {
+    background-color: white;
+}
+
+/* Habilidades */
+#skills {
+    padding: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+#works {
+    padding: 0%;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.miniimg img {
+    border-width: 10px;
+    max-width: 100%;
+    width: 75%;
+    height: 150px;
+    border-radius: 0%;
+}
+
+.maxFont {
+    font-size: 120%;
+}
+
 /* Personalidade */
 #personality-title h1 {
     text-align: center;
@@ -72,46 +114,4 @@ a:hover {
 .col img {
     border-radius: 50%;
     max-width: 100px;
-}
-
-/* Habilidades */
-#skills {
-    padding: 1%;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-@media only screen and (min-width: 600px) {
-    
-}
-
-#works {
-    padding: 0%;
-    padding-left: 11%;
-    padding-right: 11%;
-}
-
-.miniimg img {
-    border-width: 10px;
-    max-width: 100%;
-    width: 75%;
-    height: 150px;
-    border-radius: 0%;
-}
-
-.maxFont {
-    font-size: 120%;
-}
-
-/* Contato */
-#media img {
-    border-radius: 20%;
-    width: 50px;
-    height: 50px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-.background-image {
-    background-color: white;
 }
