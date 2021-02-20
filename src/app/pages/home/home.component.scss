@@ -72,13 +72,16 @@ hr {
 }
 
 // Trabalhos
-#works {
-    padding-top: 3%;
+.works {
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .img-size {
     border-radius: 5px;
-    border-width: 2px;
+    border-width: 10px;
     border-color: white;
     border-style: solid;
     width: 100%;
