@@ -1,137 +1,138 @@
 a:hover {
-    color: mediumspringgreen;
-    text-decoration: none;
+  color: mediumspringgreen;
+  text-decoration: none;
 }
 
 .col-sm-12 {
-    background-color: mediumorchid;
-    color: white;
+  background-color: mediumorchid;
+  color: white;
 }
 
 #profile p {
-    font-size: 96%;
+  font-size: 96%;
 }
 
 .col-sm-6 {
-    padding: 3%;
+  padding: 3%;
 }
 
-.col-sm-6 h1,p,a {
-    color: white;;
+.col-sm-6 h1,
+p,
+a {
+  color: white;
 }
 
 .col-sm-6 img {
-    border-radius: 50%;
-    max-width: 100px;
+  border-radius: 50%;
+  max-width: 100px;
 }
 
 /* Contato */
 #media img {
-    border-radius: 20%;
-    width: 50px;
-    height: 50px;
-    margin-left: 1px;
-    margin-right: 1px;
+  border-radius: 20%;
+  width: 50px;
+  height: 50px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .background-image {
-    background-color: white;
+  background-color: white;
 }
 
 hr {
-    background-color: white;
+  background-color: white;
 }
 
 /* Habilidades */
 #skills {
-    padding: 1%;
-    padding-left: 20%;
-    padding-right: 20%;
+  padding: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 @media only screen and (min-width: 600px) {
-    
 }
 
-#works {
-    padding: 0%;
-    padding-left: 11%;
-    padding-right: 11%;
-}
+// #works {
+//   padding: 0%;
+//   padding-left: 11%;
+//   padding-right: 11%;
+// }
 
 .miniimg img {
-    border-width: 10px;
-    max-width: 100%;
-    width: 75%;
-    height: 150px;
-    border-radius: 0%;
+  border-width: 10px;
+  max-width: 100%;
+  width: 75%;
+  height: 150px;
+  border-radius: 0%;
 }
 
 .maxFont {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 // Trabalhos
-.works {
-    display: flex;
-    align-items: center;
-    padding-top: 2%;
-    padding-bottom: 3%;
+.container__works {
+  display: flex;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
 
 .img-size {
-    border-radius: 5px;
-    border-width: 10px;
-    border-color: white;
-    border-style: solid;
-    width: 100%;
-} 
+  border-radius: 5px;
+  border-width: 10px;
+  border-color: white;
+  border-style: solid;
+  width: 100%;
+}
 
 /* Personalidade */
 #personality-title h1 {
-    text-align: center;
-    letter-spacing: -2.0px;
-    padding-top: 3%;
+  text-align: center;
+  letter-spacing: -2px;
+  padding-top: 3%;
 }
 
 #personality {
-    padding: 3%;
+  padding: 3%;
 }
 
 @media only screen and (max-width: 600px) {
-    .large-characteristics {
-      display: none;
-    }
+  .large-characteristics {
+    display: none;
+  }
 
-    .mobile-characteristics {
-        margin-top: 10%;
-        margin-bottom: 5%;
-    }
+  .mobile-characteristics {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
 
-    .large-skills {
-        display: none;
-    }
+  .large-skills {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-    .large-characteristics p {
-      margin-top: -1%;
-    }
+  .large-characteristics p {
+    margin-top: -1%;
+  }
 
-    .mobile-characteristics {
-      display: none;
-    }
+  .mobile-characteristics {
+    display: none;
+  }
 
-    .mobile-skills {
-      display: none;
-    }
+  .mobile-skills {
+    display: none;
+  }
 }
 
 .max-percent {
-    color: mediumspringgreen;
+  color: mediumspringgreen;
 }
 
 .col img {
-    border-radius: 50%;
-    max-width: 100px;
+  border-radius: 50%;
+  max-width: 100px;
 }
