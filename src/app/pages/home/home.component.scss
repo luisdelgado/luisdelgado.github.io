@@ -115,6 +115,10 @@ hr {
 }
 
 @media only screen and (min-width: 600px) {
+  .div--twoColumns {
+    align-items: baseline;
+  }
+
   .large-characteristics p {
     margin-top: -1%;
   }
